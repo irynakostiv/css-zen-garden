@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+}
+#css-zen-garden {
+    background-color: rgb(252, 221, 159);
+    max-width:1300px;
+    margin:0 auto;
+}
+header {
+    background-image: url("../img/green.jpg");
+    border-bottom: 1px solid #ccc;
+    border-radius: 10px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 150px;
+    padding-left:10%;
+    padding-top: 5%;
+}
+h1 {
+    font-size:50px;
+    margin-bottom: 0;
+}
+h2 {
+    font-size: 20px;
+}
+h1, h2 {
+    font-family: 'Broadway', serif;
+}
+.preamble {
+    background-color: rgb(204, 202, 199);
+    border-bottom: 1px solid #ccc;
+    font-weight: bold;
+    font-style: italic;
+    margin: 1% 1.5%;
+}
+.preamble h3 {
+    margin-bottom: 0;
+    text-decoration: underline;
+}
+.preamble p {
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+.summary {
+    padding:0 20px;
+    margin: 20px 0;
+}
+.summary p {
+    margin-bottom: 0;
+}
+
+#zen-supporting {
+    text-align: justify;
+    margin-left:0;
+    margin-top: 10px;
+    
+}
+.explanation h3, .participation h3, .benefits h3, .requirements h3 {
+    font-family: 'Algerian', serif;
+    color: rgb(114, 48, 17);
+    margin-left: 20px;
+    text-decoration: underline;
+}
+.design-selection h3, .design-archives h3, .resources {
+    font-family: 'BroadWay', serif;
+    margin-left: 10px;
+}
+.designer-name {
+    color: black;
+}
+a:link {
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(145, 77, 50);
+    text-decoration: underline;
+}
+a:visited {
+    color: rgb(30, 91, 10);
+}
+
+.main > div,
+.preamble, 
+.sidebar {
+    border-bottom: 1px solid #ccc;
+    background-image: url("../img/light-green.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 15px;
+}
+
+
+
+
+
+
+
